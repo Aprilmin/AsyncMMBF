@@ -77,6 +77,10 @@ run.bat
 ```
 conda runAbalation.bat
 ```
+* Executing the code on different numbers of devices. Note that client_num controls the number of devices, thresholdAcc represents the accuracy threshold at which the global model stops training.
+```
+python abalation_UTD.py --iid=0 --client_num=5 --splitScheme='mix' --subnet_num=2 --epochs=1000 --lr=0.0001 --thresholdAcc=0.8 --isStopByAcc=True
+```
 
  
 # Citation
