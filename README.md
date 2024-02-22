@@ -75,7 +75,7 @@ run.bat
 * Ensure the UTD-MHAD dataset has been downloaded and put into the UTD/data folder. Then enter the Abalation folder.
 * Run the script on your machine. Note that, client_num, Naplha, hidDim, and chunks represent the number of devices, the values of Dirichlet parameters, Tucker-rank, and CP-rank, respectively. The specifical commands can be shown in the script.
 ```
-conda runAbalation.bat
+runAbalation.bat
 ```
 * Executing the code on different numbers of devices. Note that client_num controls the number of devices, thresholdAcc represents the accuracy threshold at which the global model stops training.
 ```
