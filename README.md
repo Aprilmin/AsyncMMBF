@@ -28,6 +28,18 @@ The implementation of "Multimodal Fusion with Block Term Decomposition for Async
 	|-- blending.py		// utility functions
 	|-- options.py		// configuration for AsyncMMBF
 
+
+|--Abalation // Abalations study on UTD dataset
+
+	|-- requirements.txt    // the required environment on UTD dataset
+	|-- runAbalation.bat    // running script of Abalations study on UTD dataset
+	|-- abalation_UTD.py    // main file of AsyncMMBF on UTD dataset
+	|-- GlobalScheduling.py	// set up training
+	|-- UtdData.py		// load the data for clients in FL
+	|-- model.py 	// model configuration for UTD datasets 
+	|-- blending.py		// utility functions
+	|-- options.py		// configuration for Abalations study
+
 ```
 # Environment
 * Create and activate conda environment for each dataset
