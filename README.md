@@ -1,5 +1,6 @@
 # AsyncMMBF
-The implementation of "Multimodal Fusion with Block Term Decomposition for Asynchronous Federated Learning"
+The implementation of "Multimodal Fusion with Block Term Decomposition for Asynchronous Federated Learning".  All simulations are conducted using the PyTorch framework on a computer equipped with an Intel Core i7-12700 CPU, 32GB of memory, and an NVIDIA GeForce RTX 3090 GPU.
+
 # Project Strcuture
 ```
 |--UTD // codes running on UTD dataset
@@ -56,7 +57,15 @@ conda activate envname
 * Run the script on your machine. Note that iid=0, subnetnet_num=2 represent label-based Non-IID and modality-based Non-IID respectively, vice versa.
 ```
 run.bat
-``` 
+```
+
+# Abalation 
+* Ensure the UTD-MHAD dataset has been downloaded and put into the UTD/data folder. Then enter the Abalation folder.
+* Run the script on your machine. Note that, client_num, Naplha, hidDim, and chunks represent the number of devices, the values of Dirichlet parameters, Tucker-rank, and CP-rank, respectively. The specifical commands can be shown in the script.
+```
+conda runAbalation.bat
+```
+
  
 # Citation
 The code and datasets of this project are made available for non-commercial, academic research only. If you find this work useful to you, please cite the following papers:
