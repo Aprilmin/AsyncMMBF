@@ -1,5 +1,5 @@
 # AsyncMMBF
-The implementation of "Multimodal Fusion with Block Term Decomposition for Asynchronous Federated Learning".  All simulations are conducted using the PyTorch framework on a computer equipped with an Intel Core i7-12700 CPU, 32GB of memory, and an NVIDIA GeForce RTX 3090 GPU.
+The implementation of "Multimodal Fusion with Block Term Decomposition for Asynchronous Federated Learning".  All simulations are conducted using the PyTorch framework on a computer equipped with an Intel Core i7-12700 CPU, 32GB of memory, and an NVIDIA GeForce RTX 3090 GPU. 
 
 # Project Strcuture
 ```
