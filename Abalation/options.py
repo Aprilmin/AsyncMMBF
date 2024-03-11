@@ -1,6 +1,5 @@
 import argparse
 import distutils.util
-
 def args_parser():
     parser = argparse.ArgumentParser()
     # wandb arguments
