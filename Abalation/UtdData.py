@@ -3,7 +3,6 @@ import torch
 import os
 import _pickle as cPickle
 from torch.utils.data import Dataset
-
 class UTDdataset(Dataset):
     def __init__(self,**kwargs):
         self.labels=kwargs['labels']
