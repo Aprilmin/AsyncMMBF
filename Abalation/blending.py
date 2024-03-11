@@ -1,5 +1,4 @@
 """
-
 the overfitting value is the gap between the train loss L_i^T and
 the groundtruth L_i^* w.r.t the hypothetical target distribution
 Note: the  L^* is approximated by the validation loss L^V
