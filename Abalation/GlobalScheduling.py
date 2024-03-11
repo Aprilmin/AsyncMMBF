@@ -14,9 +14,6 @@ import math
 import numpy as np
 
 
-
-
-
 class GlobalSchedule(object):
     def __init__(self,args,data_loader_test,dataset_len,client_data,data_loader_valid,validLodader,client_data_frac):
         self.clientglobalValid=0
