@@ -8,7 +8,6 @@ python abalation_UTD.py --iid=0 --client_num=10 --splitScheme='mix' --subnet_num
 python abalation_UTD.py --iid=0 --client_num=20 --splitScheme='mix' --subnet_num=3 --epochs=1000 --lr=0.0001 --thresholdAcc=0.8 --isStopByAcc=True
 
 
-
 % Dirichlet %
 python abalation_UTD.py --iid=0 --client_num=5 --splitScheme='mix' --subnet_num=2 --epochs=150 --lr=0.0001 --Dirichlet=True --Naplha=0.01
 python abalation_UTD.py --iid=0 --client_num=5 --splitScheme='mix' --subnet_num=2 --epochs=150 --lr=0.0001 --Dirichlet=True --Naplha=0.05
