@@ -4,7 +4,6 @@
 from UtdData import LoadDataByIID,UTDdataset
 from options import args_parser
 from GlobalScheduling import GlobalSchedule
-
 import time
 import os
 import numpy as np
